@@ -1,7 +1,8 @@
-# Kubernetes
+# Kubernetes shortcuts
 abbr --add k -- kubectl
+abbr --add kn kubectl ns
 
-# Load krew plugins
+# Load kubectl krew plugins
 if test -d ~/.krew
     fish_add_path ~/.krew/bin
 end
@@ -23,9 +24,5 @@ function kc -d "Start a new shell for context supplied"
     kubie ctx $argv
 end
 
-# shortcuts
-# Istio
+# Istio shortcuts
 abbr --add io istioctl
-
-# kubectl
-abbr --add kn kubectl ns

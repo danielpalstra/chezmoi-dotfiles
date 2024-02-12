@@ -9,3 +9,6 @@ disabled = false
 
 [vagrant]
 disabled = true
+
+[nodejs]
+disabled = true

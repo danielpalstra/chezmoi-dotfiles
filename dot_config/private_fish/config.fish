@@ -1,3 +1,9 @@
+#
+# Main Fish shell configuration
+# only the minimal is setup here. The fancy stuff happens 
+# in the fish config.d directory
+#
+
 # Disable greeting
 set fish_greeting
 
@@ -9,7 +15,4 @@ end
 if status is-interactive
     # Commands to run in interactive sessions can go here
     starship init fish | source
-    pyenv init - | source
 end
-
-bind \cc 'commandline -f cancel-commandline; echo; commandline -f repaint "";'

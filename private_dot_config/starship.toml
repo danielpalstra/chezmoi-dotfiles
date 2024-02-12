@@ -1,0 +1,8 @@
+
+right_format = """$kubernetes"""
+
+[kubernetes]
+disabled = false
+
+[nodejs]
+disabled = true

@@ -12,4 +12,4 @@ if status is-interactive
     pyenv init - | source
 end
 
-bind \cc cancel-commandline; echo "helloooooo"
+bind \cc 'commandline -f cancel-commandline; echo; commandline -f repaint "";'

@@ -22,3 +22,10 @@ end
 function kc -d "Start a new shell for context supplied"
     kubie ctx $argv
 end
+
+# shortcuts
+# Istio
+abbr --add io istioctl
+
+# kubectl
+abbr --add kn kubectl ns

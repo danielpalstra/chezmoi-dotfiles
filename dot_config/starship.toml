@@ -1,0 +1,11 @@
+# 
+right_format = """$kubernetes"""
+
+[aws]
+disabled = true
+
+[kubernetes]
+disabled = false
+
+[vagrant]
+disabled = true

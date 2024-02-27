@@ -1,14 +1,22 @@
 # 
-right_format = """$kubernetes"""
+right_format = """$kubernetes$custom"""
 
 [aws]
 disabled = true
 
 [kubernetes]
 disabled = false
+format = '☸ $context \($namespace\)'
+
 
 [vagrant]
 disabled = true
 
 [nodejs]
 disabled = true
+
+
+[custom.kubie]
+command = 'echo kubie 🐹'
+when = ''' test "$KUBIE_ACTIVE" = "1" '''
+format = ' > [$output]($style)'

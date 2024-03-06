@@ -26,3 +26,6 @@ end
 
 # Istio shortcuts
 abbr --add io istioctl
+
+# Docker shortcuts
+abbr --add dc docker compose

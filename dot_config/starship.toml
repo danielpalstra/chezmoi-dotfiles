@@ -20,6 +20,6 @@ disabled = true
 
 
 [custom.kubie]
-command = 'echo kubie 🐹'
+command = 'echo "🌌"'
 when = ''' test "$KUBIE_ACTIVE" = "1" '''
-format = ' > [$output]($style)'
+format = ' $output'
